@@ -1,4 +1,4 @@
-# Kaikan Cachoeira
+# ACAC - Kaikan
 
 Sistema de gestão para uma associação sem fins lucrativos dedicada a preservar a cultura japonesa, mantida inteiramente por voluntários. A associação promove eventos como karaokê, gincanas, bingos e torneios, e durante esses eventos opera uma lanchonete (baiten) para ajudar a cobrir as despesas mensais.
 
@@ -25,9 +25,9 @@ O foco é o controle **agregado** por evento, não o rastreamento de cada transa
 
 | Repo | Conteúdo |
 |---|---|
-| [`kaizen-backend`](../../kaizen-backend) | API em Java/Spring Boot |
-| [`kaizen-frontend`](../../kaizen-frontend) | Aplicação web em React/Vite |
-| [`kaizen-docs`](../../kaizen-docs) | Padrões de commit, fluxo de branches, contrato de API (`ENDPOINTS.md`) e infraestrutura (`docker-compose.yml`) |
+| [`acac-kaikan-api`](https://github.com/acac-kaikan/acac-kaikan-api) | API em Java/Spring Boot |
+| [`acac-kaikan-web`](https://github.com/acac-kaikan/acac-kaikan-web) | Aplicação web em React/Vite |
+| [`acac-kaikan-docs`](https://github.com/acac-kaikan/acac-kaikan-docs) | Padrões de commit, fluxo de branches e contrato de API (`ENDPOINTS.md`) |
 
 ## Stack
 
@@ -50,7 +50,7 @@ Detalhes de setup e como rodar cada parte estão no README de cada repositório.
 
 ## Fluxo de trabalho
 
-Todos os repositórios seguem o mesmo padrão de branches e commits, documentado em [`kaizen-docs`](../../kaizen-docs):
+Todos os repositórios seguem o mesmo padrão de branches e commits, documentado em [`acac-kaikan-docs`](https://github.com/acac-kaikan/acac-kaikan-docs):
 
 ```
 feat/nome-da-feature → dev → main
